@@ -28,6 +28,7 @@
     top: 50%;
     left: 25%;
     transform: translateX(-20%);
+    letter-spacing: 0.3rem;
     
    
   }
