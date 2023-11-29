@@ -77,7 +77,7 @@
                                 </div>
 
                                 <div class="d-grid pt-5">
-                                    <button class=" btn btn-dark btn-lg" type="submit" onclick="setTimeout(validateForm(),10000)">Confirm</button>
+                                    <button class=" btn btn-dark btn-lg" type="submit" onclick="validateForm()">Confirm</button>
                                 </div>
                             </div>
                         </div>
@@ -90,20 +90,20 @@
             
                     <img src="images/bg-card-front.png" alt="the front view of an atm card" class="img-fluid">
                 
-                    <p class="lead z-1 position-absolute numbers" id="number">0000 0000 0000 0000</p>
+                    <p class="lead z-1 position-absolute numbers" id="number"></p>
                     <p class="text-start names position-absolute text-center">
-                        <span class="text-uppercase pe-3 pe-lg-5 " id="jane">JANE APLESEED</span>
+                        <span class="text-uppercase pe-3 pe-lg-5 " id="jane"></span>
 
-                        <span class="text-uppercase dates" id="expMonth">00</span>
+                        <span class="text-uppercase dates" id="expMonth"></span>
                         <span class="text-uppercase dates">&#47;</span> 
-                        <span class="text-uppercase dates" id="expYear">00</span>
+                        <span class="text-uppercase dates" id="expYear"></span>
                     </p>
 
                     <img src="images/card-logo.svg" alt="card logo" class="img-fluid logo position-absolute top-0 py-3">
             </div>
             <div class="position-absolute back p-3 text-white">
                 <img src="images/bg-card-back.png" alt="the back view of an atm" class="img-fluid">
-                <p class="lead z-1 position-absolute cvc" id="cvcnumber">000</p>
+                <p class="lead z-1 position-absolute cvc" id="cvcnumber"></p>
             </div>
         </div>
         
