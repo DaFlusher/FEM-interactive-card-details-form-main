@@ -1,0 +1,193 @@
+/*importing google font*/
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+  body{
+    font-family: 'Space Grotesk', sans-serif;
+    height: 10vh;
+  }
+
+/*Styling for the position absolute items*/
+  
+  .front{
+    top: 15%;
+    
+  }
+
+  .back{
+    top: 0;
+    left: 0;
+  }
+
+  div .logo{
+    left: 5%;
+    max-height: 80px;
+  }
+
+
+  div p.numbers{
+    top: 50%;
+    left: 25%;
+    transform: translateX(-20%);
+    
+   
+  }
+
+  div p.names{
+    top: 75%;
+    left: 40%;
+    transform: translateX(-40%);
+  }
+
+  div p.cvc{
+    top: 45%;
+    left: 53%;
+    transform: translateX(-53%);
+  }
+
+  /*media query for the cards*/
+@media screen and (min-width:590px) and (max-width:767px) {
+    .front{
+        top: 20%;
+        left: 20%;
+    }
+    div p.names{
+        top: 75%;
+        left: 25%;
+        transform: translateX(-20%);
+      }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .front{
+        top: 28%;
+        left: 40%;
+    }
+    div p.names{
+        top: 75%;
+        left: 20%;
+        transform: translateX(-20%);
+      }
+
+    div p.numbers{
+        top: 50%;
+        left: 20%;
+        transform: translateX(-20%);
+       
+      }
+
+      div p.cvc{
+        left: 40%;
+        transform: translateX(-30%);
+      }
+    
+}
+
+@media screen and (min-width:992px) and (max-width:1289px) {
+    div.front{
+        top: 10%;
+        
+      }
+    
+    div.back{
+        top: 50%;
+      }
+
+      div p.names{
+        top: 75%;
+        left: 13%;
+        transform: translateX(-20%);
+      }
+
+    div p.numbers{
+        top: 50%;
+        left: 13%;
+        transform: translateX(-15%);
+       
+      }
+
+    div p.cvc{
+        top: 45%;
+        left: 30%;
+    }
+
+    div .logo{
+        left: 3%;
+        max-height: 80px;
+      }
+}
+
+@media screen and (min-width:1290px) and (max-width:1569px) {
+    div.front{
+        top: 10%;
+        left: 10%;
+        
+      }
+    
+    div.back{
+        top: 50%;
+        left: 12%;
+      }
+
+      div p.names{
+        top: 75%;
+        left: 10%;
+        transform: translateX(-18%);
+      }
+
+    div p.numbers{
+        top: 50%;
+        left: 10%;
+        transform: translateX(-13%);
+       
+      }
+    div p.cvc{
+        top: 45%;
+        left: 20%;
+    }
+
+    div .logo{
+        left: 3%;
+        max-height: 80px;
+      }
+}
+
+@media screen and (min-width:1570px) {
+    div.front{
+        top: 15%;
+        left: 20%;
+        transform: translateX(-5%);
+
+      }
+    
+    div.back{
+        top: 45%;
+        left:20%;
+        transform: translateX(-2%);
+      }
+
+    
+    div p.names{
+        top: 75%;
+        left: 10%;
+        transform: translateX(-20%);
+      }
+
+    div p.numbers{
+        top: 50%;
+        left: 10%;
+        transform: translateX(-15%);
+       
+      }
+    div p.cvc{
+        top: 45%;
+        left: 20%;
+        transform: translateX(-50%);
+      
+}
+
+ div .logo{
+    left: 2%;
+    max-height: 80px;
+  }
+
+}
