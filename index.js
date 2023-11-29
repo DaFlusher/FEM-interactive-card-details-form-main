@@ -46,7 +46,7 @@ cvc.addEventListener('input', function(){
  
 
 //form validation with a pageload delay
-setTimeout(
+
         function validateForm(){
 
             let y = document.getElementById('cardname').value;
@@ -139,7 +139,6 @@ setTimeout(
                 e.preventDefault();
                 }
             });
-        },
-        10000);
+        };
 
    
