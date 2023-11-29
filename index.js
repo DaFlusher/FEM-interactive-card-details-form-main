@@ -43,6 +43,14 @@ cvc.addEventListener('input', function(){
     cvcnumber.textContent = cvc.value;
 })
 
+ //preventing the enter key from submiting the form
+ const form = document.getElementById('myForm');
+ form.addEventListener('keypress', function(e) {
+     if (e.KeyboardEvent.keyCode === 13) {
+     e.preventDefault();
+     }
+ });
+
 //form validation with a pageload delay
 setTimeout(
         function validateForm(){
@@ -132,5 +140,4 @@ setTimeout(
         },
         10000);
 
-
-
+   
