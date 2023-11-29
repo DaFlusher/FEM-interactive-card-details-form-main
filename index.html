@@ -83,16 +83,20 @@
                         </div>
                     </div>
                 </form>
+                <div class="attribution pt-5 ">
+                    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                    Coded by <a href="#">DaFlusher</a>.
+                </div>
             </div>
 
             <!--adding the cards-->
-            <div class="position-absolute front text-white z-1">
+            <div class="position-absolute front z-1 text-white col-12 col-md-11 col-lg-6 col-xl-4" tabindex="-1">
             
                     <img src="images/bg-card-front.png" alt="the front view of an atm card" class="img-fluid">
                 
                     <p class="lead z-1 position-absolute numbers" id="number"></p>
                     <p class="text-start names position-absolute text-center">
-                        <span class="text-uppercase pe-3 pe-lg-5 " id="jane"></span>
+                        <span class="text-uppercase pe-2 pe-lg-3 " id="jane"></span>
 
                         <span class="text-uppercase dates" id="expMonth"></span>
                         <span class="text-uppercase dates">&#47;</span> 
@@ -101,11 +105,16 @@
 
                     <img src="images/card-logo.svg" alt="card logo" class="img-fluid logo position-absolute top-0 py-3">
             </div>
-            <div class="position-absolute back p-3 text-white">
+            <div class="position-absolute back p-3 text-white z-0 col-12 col-md-11 col-lg-6 col-xl-4" tabindex="-1">
                 <img src="images/bg-card-back.png" alt="the back view of an atm" class="img-fluid">
                 <p class="lead z-1 position-absolute cvc" id="cvcnumber"></p>
             </div>
+
+            
         </div>
+
+        
+
         
     </div>
       
@@ -120,10 +129,7 @@
   Continue
   -->
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">DaFlusher</a>.
-  </div>
+  
 
   <!--loading Bootstrap JS-->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

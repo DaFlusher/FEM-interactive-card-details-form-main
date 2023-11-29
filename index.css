@@ -12,6 +12,7 @@
     top: 15%;
     
     
+    
   }
 
   .back{
@@ -22,6 +23,7 @@
   div .logo{
     left: 5%;
     max-height: 80px;
+    min-height: 10px;
   }
 
 
@@ -66,8 +68,8 @@
     }
     div p.names{
         top: 75%;
-        left: 20%;
-        transform: translateX(-20%);
+        left: 15%;
+        transform: translateX(-15%);
       }
 
     div p.numbers{
@@ -96,8 +98,8 @@
 
       div p.names{
         top: 75%;
-        left: 13%;
-        transform: translateX(-20%);
+        left: 25%;
+        transform: translateX(-25%);
       }
 
     div p.numbers{
@@ -113,8 +115,9 @@
     }
 
     div .logo{
-        left: 3%;
-        max-height: 80px;
+        left: 5%;
+      
+       
       }
 }
 
@@ -132,8 +135,8 @@
 
       div p.names{
         top: 75%;
-        left: 10%;
-        transform: translateX(-18%);
+        left: 20%;
+        transform: translateX(-20%);
       }
 
     div p.numbers{
@@ -148,7 +151,7 @@
     }
 
     div .logo{
-        left: 3%;
+        left: 5%;
         max-height: 80px;
       }
 }
@@ -171,7 +174,7 @@
     div p.names{
         top: 75%;
         left: 10%;
-        transform: translateX(-20%);
+        transform: translateX(-5%);
       }
 
     div p.numbers{
@@ -188,7 +191,7 @@
 }
 
  div .logo{
-    left: 2%;
+    left: 5%;
     max-height: 80px;
   }
 
