@@ -43,13 +43,7 @@ cvc.addEventListener('input', function(){
     cvcnumber.textContent = cvc.value;
 })
 
- //preventing the enter key from submiting the form
- const form = document.getElementById('myForm');
- form.addEventListener('keypress', function(e) {
-     if (e.KeyboardEvent.keyCode === 13) {
-     e.preventDefault();
-     }
- });
+ 
 
 //form validation with a pageload delay
 setTimeout(
@@ -137,6 +131,14 @@ setTimeout(
             document.getElementById('month-feedback').textContent=textmonth;
             document.getElementById('year-feedback').textContent=textyear;
             document.getElementById('cvc-feedback').textContent=textcvc;
+            
+            //preventing the enter key from submiting the form
+            const form = document.getElementById('myForm');
+            form.addEventListener('keypress', function(e) {
+                if (e.KeyboardEvent.keyCode === 13) {
+                e.preventDefault();
+                }
+            });
         },
         10000);
 
