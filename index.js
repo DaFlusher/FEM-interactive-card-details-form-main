@@ -131,14 +131,6 @@ cvc.addEventListener('input', function(){
             document.getElementById('month-feedback').textContent=textmonth;
             document.getElementById('year-feedback').textContent=textyear;
             document.getElementById('cvc-feedback').textContent=textcvc;
-            
-            //preventing the enter key from submiting the form
-            const form = document.getElementById('myForm');
-            form.addEventListener('keypress', function(e) {
-                if (e.KeyboardEvent.keyCode === 13) {
-                e.preventDefault();
-                }
-            });
         };
 
    
